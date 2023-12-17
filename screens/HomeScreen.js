@@ -13,7 +13,6 @@ import { HeroImage } from "../assets";
 
 const HomeScreen = () => {
   const navigation = useNavigation();
-
   useLayoutEffect(() => {
     navigation.setOptions({
       headerShown: false,
